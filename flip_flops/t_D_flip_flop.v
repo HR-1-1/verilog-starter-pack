@@ -27,8 +27,8 @@ module DFF_tb;
 	
 	initial
 		begin 
-            $dumpfile("example.vcd");
-            $dumpvars(0, DFF_tb);
+            		$dumpfile("example.vcd");
+            		$dumpvars(0, DFF_tb);
 			$monitor("At time = %g, CLK = %b, RST = %b, D = %b, Q = %b", $time, CLK, RST, D, Q);
 		end
 
