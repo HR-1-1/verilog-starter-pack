@@ -8,9 +8,9 @@
 `timescale 1ns/1ps
 
 module D_FF( Q,		//port list
-			 D,
-			 CLK,
-			 RST);
+	     D,
+             CLK,
+	     RST);
 
 	//Argument classification
 	output Q;
@@ -18,11 +18,9 @@ module D_FF( Q,		//port list
 	reg Q;
 
 	always @ (posedge CLK, //sensitivity list 
-			  negedge RST)
+		  negedge RST)
 	
 		if(!RST) Q <= 1'b0; //one bit binary number with a value of zero
 		else Q <= D;
-	
-
 		
 endmodule
