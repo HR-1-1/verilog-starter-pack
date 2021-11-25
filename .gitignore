@@ -1,0 +1,5 @@
+#vvp output files
+dsn
+
+#Value change dump files
+*.vcd
