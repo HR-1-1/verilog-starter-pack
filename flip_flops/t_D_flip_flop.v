@@ -34,5 +34,5 @@ module DFF_tb;
 
 	initial
 		#200 $finish;
-	endmodule
+endmodule
 
