@@ -19,8 +19,9 @@ module D_FF( Q,		//port list
 
 	always @ (posedge CLK, //sensitivity list 
 		  negedge RST)
-	
+	begin
 		if(!RST) Q <= 1'b0; //one bit binary number with a value of zero
 		else Q <= D;
-		
+	end
+	
 endmodule
