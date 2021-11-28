@@ -12,4 +12,4 @@
 ## Useful things to know
 - Nested instantiations is allowed but Nested declarations are not. 
 - The `case` items have an implied priority. 
-- Inserting `_` in a number has no effect (and obv improves readability).
+- Inserting `_` in a number has no effect (except obv improves readability).
