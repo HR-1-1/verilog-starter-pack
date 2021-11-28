@@ -9,19 +9,19 @@
 
 //Uncomment any one of the descriptions before validating with a test-bench
 
-/**Gate-Level description**/
+/**Gate-Level description**
 module half_adder ( output S, C,
-					input x, y);
+		input x, y);
 
 	xor (S, x, y);
 	and (C, x, y);
 
 endmodule
-/***/
+***/
 
 /**Data-flow description**
 module half_adder ( output S, C,
-					input x, y);
+		input x, y);
 
 	assign {C, S} = x + y;
 
@@ -30,7 +30,7 @@ endmodule
 
 /**Behavioural description**
 module half_adder ( output reg S, C,
-					input x, y);
+		input x, y);
 	
 	always @ (x or y)
 		{C, S} = x + y;
