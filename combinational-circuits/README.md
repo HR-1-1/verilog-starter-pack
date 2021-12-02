@@ -2,7 +2,7 @@
 ## Index of Models
 ### Basic Arithmetic
 1. [Half Adder](https://github.com/HR-1-1/verilog-starter-pack/blob/main/combinational-circuits/basic-arithmetic/half_adder.v)
-2. Full Adder
+2. [Full Adder](https://github.com/HR-1-1/verilog-starter-pack/blob/main/combinational-circuits/basic-arithmetic/full_adder.v)
 3. Four-bit adder
 4. Half Subtractor 
 5. Full Subtractor
