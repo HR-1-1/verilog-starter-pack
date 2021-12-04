@@ -1,5 +1,6 @@
 #vvp output files
 dsn
+*.swp
 
 #Value change dump files
 *.vcd
